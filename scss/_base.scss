@@ -1,0 +1,160 @@
+section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 1.5px;
+}
+
+
+#hero-section {
+  .jumbotron {
+    background: 
+            linear-gradient(0deg, 
+          rgba(26,70,86,0.65), 
+          rgba(26,70,86,0.65)), 
+            url('/assets/img/hero-img-clipped.jpg');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+  }
+  img {
+    height: 50vh;
+  }
+  h1 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+  }
+  .row.justify-content-center {
+    margin-top: 10rem;
+  }
+  svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20vh;
+  }
+}
+
+#how-to {
+  // height: 50vh;
+  background-color: white;
+   h5 br {
+     margin-bottom: 2rem;
+   }
+}
+
+#three-steps {
+  color: white;
+  background-color: $brand-color-navy;
+  img {
+    max-width: 100px;
+    height: auto;
+  }
+}
+
+#how-much {
+  background: 
+            linear-gradient(0deg, 
+          rgba(26,70,86,0.65), 
+          rgba(26,70,86,0.65)), 
+            url('/assets/img/how-much-can-i-earn.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  color: white;
+  img {
+    max-width: 100px;
+  }
+  table {
+    &.table-bordered td, &.table-bordered th {
+      border: 1px solid black;
+    }
+    width: 60%;
+    margin: auto;
+    background-color: rgba(200, 200, 200, 0.9);
+    text-align: center;
+    th {
+      text-transform: uppercase;
+      font-weight: 400;
+      letter-spacing: 1.5px;
+      padding: 0.5rem 0.75rem;
+    }
+  }
+}
+
+#how-raadz-works {
+  .large-step p {
+    margin-top: 5rem;
+    margin-bottom: 12rem;
+  }
+  .position-absolute {
+    width: 45vw;
+    img {
+      width: 100%;
+    }
+  }
+  #step-2 {
+    .position-absolute {
+      left: 40vw;
+    }
+  }
+  #step-3 {}
+  #step-4 {
+    img {
+      width: 45%;
+    }
+    .position-absolute {
+      left: 65vw;
+    }
+    
+  }
+}
+
+#why-raadz {
+  background: 
+          linear-gradient(0deg, 
+        rgba(26,70,86,0.65), 
+        rgba(26,70,86,0.65)), 
+          url('/assets/img/lady-in-coffee-shop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  color: white;
+  h2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  h6 {
+    padding-bottom: 2rem;
+  }
+  .btn {
+    margin-bottom: 5rem;
+  }
+}
+
+#about {
+}
+
+#footer {
+  background-color: $brand-color-navy;
+  padding-top: 5rem;
+  color: white;
+  i {
+    color: white;
+    margin-right: 2rem;
+  }
+  a {
+    color: white;
+  }
+  p {
+    text-transform: uppercase;
+  }
+  #terms {
+    padding-right: 2rem;
+    border-right: 1px solid grey;
+  }
+}
